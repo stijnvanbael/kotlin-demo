@@ -1,4 +1,4 @@
-package eu.ccvlab.java.demo;
+package java.demo;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
-package eu.ccvlab.java.demo;
+package java.demo;
 
-import static eu.ccvlab.java.demo.Functions.println;
+import static java.demo.Functions.println;
 
 public class StringFormatting {
     public static void main(String[] args) {

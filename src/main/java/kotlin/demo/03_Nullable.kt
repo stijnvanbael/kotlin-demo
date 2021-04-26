@@ -1,4 +1,4 @@
-package eu.ccvlab.kotlin.demo
+package kotlin.demo
 
 @Suppress("VARIABLE_WITH_REDUNDANT_INITIALIZER", "RedundantExplicitType", "CanBeVal")
 

@@ -1,4 +1,4 @@
-package eu.ccvlab.kotlin.demo
+package kotlin.demo
 
 import java.io.PrintWriter
 import java.io.StringWriter

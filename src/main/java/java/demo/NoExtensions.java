@@ -1,11 +1,11 @@
-package eu.ccvlab.java.demo;
-
-import eu.ccvlab.kotlin.demo._04_ExtensionsKt;
+package java.demo;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static eu.ccvlab.java.demo.Functions.println;
+import static java.demo.Functions.println;
+
+import kotlin.demo._04_ExtensionsKt;
 
 public class NoExtensions {
     public static void main(String[] args) {

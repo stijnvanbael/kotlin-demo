@@ -1,12 +1,12 @@
-package eu.ccvlab.java.demo;
-
-import eu.ccvlab.kotlin.demo._05_ParametersKt;
+package java.demo;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.time.LocalDateTime;
 
-import static eu.ccvlab.java.demo.Functions.println;
+import static java.demo.Functions.println;
+
+import kotlin.demo._05_ParametersKt;
 
 public class Parameters {
     public static void main(String[] args) {

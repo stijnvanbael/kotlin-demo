@@ -1,8 +1,10 @@
-package eu.ccvlab.java.demo;
+package java.demo;
 
 import java.math.BigDecimal;
 
-import static eu.ccvlab.java.demo.Functions.println;
+import static java.demo.Functions.println;
+
+import kotlin.demo.Money;
 
 public class NoOperatorOverloading {
     public static void main(String args[]) {
@@ -13,8 +15,8 @@ public class NoOperatorOverloading {
                 .add(new Money("USD", new BigDecimal("10"))));
 
         // Kotlin interop
-        println(new eu.ccvlab.kotlin.demo.Money("EUR", new BigDecimal("5.5"))
-                .plus(new eu.ccvlab.kotlin.demo.Money("EUR", new BigDecimal("10"))));
+        println(new kotlin.demo.Money("EUR", new BigDecimal("5.5"))
+                .plus(new kotlin.demo.Money("EUR", new BigDecimal("10"))));
     }
 
     static class Money {

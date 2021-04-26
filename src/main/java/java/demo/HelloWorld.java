@@ -1,4 +1,4 @@
-package eu.ccvlab.java.demo;
+package java.demo;
 
 public class HelloWorld {
     public static void main(String[] args) {

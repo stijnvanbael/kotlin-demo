@@ -1,4 +1,4 @@
-package eu.ccvlab.kotlin.demo
+package kotlin.demo
 
 fun main(args: Array<String>) {
     println("Hello world!")

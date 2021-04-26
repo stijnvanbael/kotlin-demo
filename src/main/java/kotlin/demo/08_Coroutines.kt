@@ -1,9 +1,7 @@
-@file:Suppress("EXPERIMENTAL_FEATURE_WARNING")
+package kotlin.demo
 
-package eu.ccvlab.kotlin.demo
-
-import kotlinx.coroutines.experimental.CommonPool
-import kotlinx.coroutines.experimental.async
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -12,7 +10,7 @@ fun main(args: Array<String>) {
 
     listOf("Brussels", "Miami", "Moscow", "London")
             .forEach { l ->
-                async(CommonPool) {
+                GlobalScope.async {
                     printWeather(weatherService, l)
                 }
             }

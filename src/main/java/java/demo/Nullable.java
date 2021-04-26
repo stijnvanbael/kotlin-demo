@@ -1,9 +1,9 @@
-package eu.ccvlab.java.demo;
+package java.demo;
 
-import eu.ccvlab.kotlin.demo._03_NullableKt;
+import kotlin.demo._03_NullableKt;
 import org.jetbrains.annotations.NotNull;
 
-import static eu.ccvlab.java.demo.Functions.println;
+import static java.demo.Functions.println;
 
 public class Nullable {
     @SuppressWarnings("UnusedAssignment")

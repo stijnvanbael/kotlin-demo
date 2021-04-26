@@ -1,5 +1,5 @@
 plugins {
-    application
+    `kotlin-dsl`
 }
 
 repositories {
@@ -7,5 +7,5 @@ repositories {
 }
 
 dependencies {
-    compile(group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version = "0.18")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2")
 }

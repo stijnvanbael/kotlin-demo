@@ -1,4 +1,4 @@
-package eu.ccvlab.java.demo;
+package java.demo;
 
 
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ForkJoinPool;
 
-import static eu.ccvlab.java.demo.Functions.println;
+import static java.demo.Functions.println;
 
 public class NoCoroutines {
     public static void main(String[] args) throws InterruptedException {
