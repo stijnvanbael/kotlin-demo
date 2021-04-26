@@ -1,9 +1,9 @@
 package demo.java;
 
+import static demo.java.Functions.println;
+
 import demo.kotlin._03_NullableKt;
 import org.jetbrains.annotations.NotNull;
-
-import static demo.java.Functions.println;
 
 public class Nullable {
     @SuppressWarnings("UnusedAssignment")
