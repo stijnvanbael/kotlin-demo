@@ -7,6 +7,6 @@ public class StringFormatting {
         final String greeting = "Hello";
         // greeting = goodbye;
         println(greeting + " " + args[0] + "!");
-        println(String.format("%s %s!", greeting , args[0]));
+        println("%s %s!".formatted(greeting, args[0]));
     }
 }
