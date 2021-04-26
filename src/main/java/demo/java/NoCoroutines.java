@@ -1,4 +1,4 @@
-package java.demo;
+package demo.java;
 
 
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ForkJoinPool;
 
-import static java.demo.Functions.println;
+import static demo.java.Functions.println;
 
 public class NoCoroutines {
     public static void main(String[] args) throws InterruptedException {

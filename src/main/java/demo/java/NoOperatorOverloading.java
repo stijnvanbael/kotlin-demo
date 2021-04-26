@@ -1,10 +1,8 @@
-package java.demo;
+package demo.java;
 
 import java.math.BigDecimal;
 
-import static java.demo.Functions.println;
-
-import kotlin.demo.Money;
+import static demo.java.Functions.println;
 
 public class NoOperatorOverloading {
     public static void main(String args[]) {
@@ -15,8 +13,8 @@ public class NoOperatorOverloading {
                 .add(new Money("USD", new BigDecimal("10"))));
 
         // Kotlin interop
-        println(new kotlin.demo.Money("EUR", new BigDecimal("5.5"))
-                .plus(new kotlin.demo.Money("EUR", new BigDecimal("10"))));
+        println(new demo.kotlin.Money("EUR", new BigDecimal("5.5"))
+                .plus(new demo.kotlin.Money("EUR", new BigDecimal("10"))));
     }
 
     static class Money {

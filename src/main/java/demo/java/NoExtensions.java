@@ -1,11 +1,11 @@
-package java.demo;
+package demo.java;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static java.demo.Functions.println;
+import static demo.java.Functions.println;
 
-import kotlin.demo._04_ExtensionsKt;
+import demo.kotlin._04_ExtensionsKt;
 
 public class NoExtensions {
     public static void main(String[] args) {

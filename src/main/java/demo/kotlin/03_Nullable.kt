@@ -1,4 +1,4 @@
-package kotlin.demo
+package demo.kotlin
 
 @Suppress("VARIABLE_WITH_REDUNDANT_INITIALIZER", "RedundantExplicitType", "CanBeVal")
 

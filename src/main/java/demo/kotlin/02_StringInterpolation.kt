@@ -1,4 +1,4 @@
-package kotlin.demo
+package demo.kotlin
 
 fun main(args: Array<String>) {
     val greeting = "Hello"

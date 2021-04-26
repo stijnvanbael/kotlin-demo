@@ -1,4 +1,4 @@
-package kotlin.demo
+package demo.kotlin
 
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
@@ -19,6 +19,7 @@ fun main(args: Array<String>) {
 
 suspend fun printWeather(weatherService: WeatherService, location: String) {
     val start = System.currentTimeMillis()
+    println("Requesting weather for $location")
     val weather = weatherService.weatherFor(location)
     val duration = System.currentTimeMillis() - start
     println("$location: $weather ($duration ms)")

@@ -1,4 +1,4 @@
-package kotlin.demo
+package demo.kotlin
 
 import java.time.LocalDate
 import java.time.LocalDateTime

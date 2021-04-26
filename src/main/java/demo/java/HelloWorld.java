@@ -1,4 +1,4 @@
-package java.demo;
+package demo.java;
 
 public class HelloWorld {
     public static void main(String[] args) {

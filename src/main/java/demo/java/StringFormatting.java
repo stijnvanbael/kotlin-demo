@@ -1,6 +1,6 @@
-package java.demo;
+package demo.java;
 
-import static java.demo.Functions.println;
+import static demo.java.Functions.println;
 
 public class StringFormatting {
     public static void main(String[] args) {

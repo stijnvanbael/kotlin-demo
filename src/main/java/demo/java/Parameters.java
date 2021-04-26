@@ -1,12 +1,12 @@
-package java.demo;
+package demo.java;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.time.LocalDateTime;
 
-import static java.demo.Functions.println;
+import static demo.java.Functions.println;
 
-import kotlin.demo._05_ParametersKt;
+import demo.kotlin._05_ParametersKt;
 
 public class Parameters {
     public static void main(String[] args) {
